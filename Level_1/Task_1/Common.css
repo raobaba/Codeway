@@ -1,8 +1,9 @@
 
 .container {
     max-width: 1200px;
+    height: 80vh;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 
 }
@@ -14,25 +15,84 @@
 }
 
 .content-container {
-    max-width: 600px;
+    max-width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    line-height: 20px;
 }
 
-.icon{
+.main-title {
+    font-size: 80px;
+    color: #4CAF50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease; 
+}
+
+.subtitle {
+    font-size: 60px;
+    color: #4CAF50;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease; 
+}
+
+.role {
+    font-size: 30px;
+    color: #4CAF50;
+    transition: color 0.3s ease;
+}
+
+
+.main-title:focus, .subtitle:focus, .role:focus {
+    outline: none;
+    box-shadow: 0 0 10px #4CAF50;
+}
+
+.icon {
     width: 50px;
     cursor: pointer;
+    transition: transform 0.3s ease; 
 }
 
-.icon,
-.profile-image,
+.icon:hover {
+    transform: scale(1.2); 
+}
+
+.social-icons{
+   display: flex;
+   width: 300px;
+   justify-content: flex-start;
+   gap: 15px;
+}
+
 .resume-btn {
-    max-width: 100%;
-    height: auto;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color:#FC1056;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
-.image-container img{
+.resume-btn:hover {
+    background-color: #000000; 
+    transform: scale(1.1); 
+}
+
+.image-container img {
     width: 300px;
     border-radius: 50%;
+    transition: transform 0.3s ease;
 }
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
 
 /* Media query for responsiveness */
 @media screen and (max-width: 768px) {
