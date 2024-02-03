@@ -1,0 +1,60 @@
+.skills {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Section Styles */
+  .skills > div {
+    margin-bottom: 20px;
+  }
+
+  /* Front-End Styles */
+  .frontend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* Back-End Styles */
+  .backend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* Other Tools Styles */
+  .other-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .frontend, .backend, .other-tools {
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .frontend img, .backend img, .other-tools img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+.skills h1{
+    font-size: 50px;
+  }
+
+
+.other-tools img{
+    width: 50px;
+}
+.frontend img {
+    width: 50px;
+}
+.backend img{
+    width: 50px;
+}
