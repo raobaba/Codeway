@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Philosopher", sans-serif;
+  background: linear-gradient(to right, #fcfbf8,  #ffeb3b, #3f51b5);
 }
 
 header {

@@ -1,0 +1,47 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-container {
+    max-width: 600px;
+}
+
+.icon{
+    width: 50px;
+    cursor: pointer;
+}
+
+.icon,
+.profile-image,
+.resume-btn {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-container {
+        max-width: 100%;
+    }
+}
