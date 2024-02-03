@@ -1,0 +1,55 @@
+.my-profile {
+    max-width: 1100px;
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: -5%;
+  }
+
+  .my-profile h1{
+    font-size: 50px;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .bio {
+    flex: 1;
+    margin-right: 20px;
+
+    width: 70%;
+    text-align: left; 
+  }
+  
+  .image {
+    flex: 1;
+
+    width: 30%;
+  }
+  
+  img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content {
+      flex-direction: column;
+    }
+  
+    .bio {
+      margin:auto;
+      width: 90%;
+    }
+    .image {
+        flex: 1;
+        width: 70%;
+        margin: auto;
+      }
+      
+  }
+  
