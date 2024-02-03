@@ -1,7 +1,7 @@
 
 .container {
     max-width: 1200px;
-    height: 80vh;
+    height: 85vh;
     margin: 0 auto;
     padding: 10px;
     box-sizing: border-box;
@@ -64,6 +64,10 @@
    gap: 15px;
 }
 
+.social-icons a {
+    border-radius: 50%;
+}
+
 .resume-btn {
     width: 200px;
     height: 50px;
@@ -99,8 +103,23 @@
     .home {
         flex-direction: column;
         text-align: center;
+
     }
 
+    .social-icons{
+        display: flex;
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin-left: 60px;
+     }
+     .icons {
+        border-radius: 50%;
+    }
+    .subtitle{
+        line-height: 50px;
+    }
     .content-container {
         max-width: 100%;
     }
