@@ -1,0 +1,23 @@
+footer {
+    color: #645959;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #493f3f;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+@media (max-width: 600px) {
+    .footer-links {
+        flex-direction: column;
+    }
+}
