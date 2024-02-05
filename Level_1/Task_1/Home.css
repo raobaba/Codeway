@@ -47,6 +47,23 @@
     box-shadow: 0 0 10px #4CAF50;
 }
 
+.main-title::after {
+    content: '👋';
+    display: inline-block;
+    margin-left: 10px; /* Adjust the spacing between 'Hello' and the wave */
+    animation: waveAnimation 2s infinite linear;
+}
+
+@keyframes waveAnimation {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg); /* Adjust the angle of the wave */
+    }
+}
+
+
 .icon {
     width: 70px;
     cursor: pointer;

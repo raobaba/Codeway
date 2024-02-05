@@ -1,0 +1,30 @@
+/* Default styles for mobile devices */
+.home {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Responsive styles for larger screens */
+@media screen and (min-width: 600px) {
+  .home {
+    margin: 40px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    margin-top: 30px;
+    font-size: 1.5em;
+  }
+}

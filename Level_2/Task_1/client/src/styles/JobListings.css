@@ -1,0 +1,50 @@
+/* Default styles for mobile devices */
+.job-listings {
+    margin: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Responsive styles for larger screens */
+  @media screen and (min-width: 600px) {
+    .job-listings {
+      margin: 40px;
+    }
+  
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    h3 {
+      font-size: 1.5em;
+    }
+  
+    button {
+      margin-top: 15px;
+    }
+  }
+  
