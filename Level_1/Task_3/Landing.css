@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-section {
+    background-image: url('https://via.placeholder.com/1600x600'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffc107;
+}
+
+.features {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff; 
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials {
+    background-color: #eee;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.testimonial {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.pricing-plan {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #3498db; /* Updated background color */
+    color: #fff;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form within the section */
+}
+
+label {
+    display: block;
+    margin-bottom: -5%;
+    color: #fff;
+}
+
+input,
+textarea {
+    width: calc(100% - 20px); /* Adjusted width to account for padding */
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #fff;
+}
+#message{
+    height: 150px;
+    color: wheat;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #fff;
+    color: #3498db; /* Match the button color with the section background */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #253626;
+    color: #fff;
+}
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+}
