@@ -4,6 +4,10 @@
     margin: auto;
     padding: 20px;
   }
+
+  #projects h1{
+    font-size: 50px;
+  }
   
   .Projects-container h1 {
     text-align: center;
