@@ -96,6 +96,8 @@
 .image-container img:hover {
     transform: scale(1.1);
 }
+
+
 @media screen and (max-width:1067px) {
     .subtitle{
         line-height: 50px;
